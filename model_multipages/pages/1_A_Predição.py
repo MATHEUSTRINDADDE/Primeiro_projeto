@@ -1,6 +1,7 @@
 # configurando a pagina que vai ficar a predição
 # no streamlit ao criar uma pasta dentro da pasta que esta executando o arquivo python
 # ele ja entende que esse arquivo pode ouf azer parte do projeto para ir no site
+import numpy as np
 import pickle
 import pandas as pd
 import streamlit as st
