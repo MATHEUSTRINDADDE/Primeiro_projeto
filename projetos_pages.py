@@ -1,20 +1,21 @@
 import streamlit as st
+# texte
 
 st.set_page_config(
     page_title="Predição Médica",
     # icone que fica na aba da pagina do chrome
-    page_icon="img/stethoscope.png")
+    page_icon="../img/stethoscope.png")
 
 # bartra lateral
 st.sidebar.header("Descrição do Projeto")
-st.sidebar.title("teste")
+# st.sidebar.title("teste")
 # imprimir texto
 st.write("# Bem-Vindo a Predição Médica 🩺")
 # lembre '\n' vai para proxima linha
 st.write("\n\n")
 
 # pegando imagem para colcoar na pagina
-st.image('img/health_insurance_img.jpg')
+st.image('../img/health_insurance_img.jpg')
 st.write("\n\n")
 
 
